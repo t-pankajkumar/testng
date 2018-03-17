@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [ Testing Example]">
+  <test name="Test suite(failed)">
+    <classes>
+      <class name="com.testngex.TestNgEx">
+        <methods>
+          <include name="b4"/>
+          <include name="timerelated"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.testngex.TestNgEx -->
+    </classes>
+  </test> <!-- Test suite(failed) -->
+</suite> <!-- Failed suite [ Testing Example] -->
